@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background= "@drawable/bg"
     tools:context=".GreatLauncher" >
 
     <TextView
@@ -11,7 +12,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="86dp"
-        android:text="Prepare to set sail" />
+        android:textColor="#FFF"
+        android:text="Launch SF Sailin Site" />
 
     <Button
         android:id="@+id/browseButton"
@@ -21,7 +23,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
-        android:text="@string/bText"
+        android:background="@drawable/launch"
         android:onClick="Launch Web Page" />
 
 </RelativeLayout>
