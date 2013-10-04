@@ -1,9 +1,17 @@
+/*
+ * Crystal McDonald
+ * MDF3
+ * 1310
+ * TheGreatLauncher
+ * 
+ * Stub Application that launches custom Set Sail Browser.
+ */
 package com.cm.thegreatlauncher;
 
-import android.net.Uri;
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -21,7 +29,7 @@ public class GreatLauncher extends Activity implements OnClickListener{
 		
 		browseButton.setOnClickListener(new OnClickListener() {//setup onclick listener
 		
-			/*
+		/*
 		 * Implicit Intent: Launches Web Browsers to open website
 		 */
 			public void onClick(View webview) {
